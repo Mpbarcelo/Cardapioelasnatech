@@ -54,15 +54,11 @@ h2 {
     color: #cc0000;
 }
 .img-ch{
-    width: 500px;
-    height: 500px;
-    
-}
+    width: 80%;
+   }
 .img{
-    width: 600px;
-    height: 400px;
-    
-}
+    width: 100%;
+   }
 
 .location {
     text-align: center;
