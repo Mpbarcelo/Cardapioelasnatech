@@ -1,18 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-color: #f2f2f2;
-}
-
-h1 {
-    text-align: center;
-    color: #333333;
-}
-
-h2 {
-    text-align: center;
-    color: #666666;
 }
 
 .container {
@@ -24,14 +14,17 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333333;
+}
+
 .item {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #dddddd;
-   text-align: center;
-}
-.slogan{
-    width: 100%;
+    text-align: center;
 }
 
 .item:last-child {
@@ -53,25 +46,38 @@ h2 {
     font-weight: bold;
     color: #cc0000;
 }
-.img-ch{
-    width: 80%;
-   }
-.img{
+
+.slogan{
     width: 100%;
-   }
-
-.location {
-    text-align: center;
-    margin-top: 20px;
-    
 }
 
-.how-to-order {
-    text-align: center;
-    margin-top: 20px;
-    
+.img-ch, .img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 
-.how-to-order p {
-    color: #666666;
+.location, .how-to-order {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+address, .how-to-order p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
 }
